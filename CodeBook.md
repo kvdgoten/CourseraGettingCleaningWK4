@@ -23,14 +23,16 @@ Train/Test | subject  | activity      |  measure     | value 
            
 ##### Columns 
 
-trainTest:  categorical data
-            identifies whether the observation is part of the test or training set    
-            "train": part of the training set    
-            "test":  part of the test set     
+1. trainTest:  
++ categorical data
++ identifies whether the observation is part of the test or training set    
++ "train": part of the training set    
++ "test":  part of the test set     
             
-Subject     categorical data    
-            identifies the subject in an anonymous way    
-            1, 2, ... 30     
+2. Subject     
++ categorical data    
++ identifies the subject in an anonymous way    
++ 1, 2, ... 30     
             
 Activity    categorical data    
             identifies 1 out of 6 possible activities 
