@@ -50,14 +50,12 @@ In a fourth step, the identifiers for the different measures were transformed: a
 
 **please look at the "raw" version for visualisation, button top-right**
 
----------------------------------------------------------------------------  
+
 Train/Test |  subject   | activity      |  measure     | value 
----------------------------------------------------------------------------            
-           |            |               |              |
+-----------|------------|---------------|--------------|--------------------            
 Train or   |    WHO     |   WHAT        |  WHAT        | the value  
 Test       |    1:30    |  6 activities |  60 measures | 617940 observations            
-|          |            |               |              |
---------------------------------------------------------------------------- 
+
 
 ##### Mean Tidy Data Set 
 
