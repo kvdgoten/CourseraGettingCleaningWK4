@@ -30,20 +30,18 @@ In several steps, described in the R script "run_analysis.R" the dataset was con
 
 The structure of the first resulting dataset is as follows: 
 
-----------------------------------------------------------------------------
-   | subject  | activity  |  561 columns/vars from results (features.txt) 
-----------------------------------------------------------------------------
+
+TT | subject  | activity  |  561 columns/vars from results (features.txt) 
 T  |          |           |    
 R  |          |           |    
 A  |   WHO    |   WHAT    |  7352 rows (train/X_train.txt)    
 I  |          |           |    
 N  |          |           | 
-----------------------------------------------------------------------------    
 T  |          |           |    
 E  |          |           |    
 S  |   WHO    |   WHAT    |  2947 rows (test/X_test.txt)    
 T  |          |           |  
-----------------------------------------------------------------------------
+
 
 In a first step, the train and test sets were combined and enriched with subjet, activity,and measure (column) information.The subject information is in the "subject_train.txt" and "subject_tests.txt" files. The activity information is in the "y_train.txt" and "y_tests.txt" files.The column names were read from "features.txt", and transformed as needed.
 
