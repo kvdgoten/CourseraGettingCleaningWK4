@@ -19,6 +19,7 @@ The original data set was split in a number of subsets:
 - names of the activities
 - names of the measures (columns)
 
+
 ##### Citation for the data
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
 
@@ -67,7 +68,11 @@ Test       |    1:30    |  6 activities |  60 measures | 617940 obser
 In a fifth step, a second tidy data set was created with the average of each variable foreach activity and subject.
 
 For readibilities sake we chose the following structure: 180 rows x 62 columns. 
+
 -------------------------------------------------------------  
 subject  | activity  |  measures (60 measures) 
 -------------------------------------------------------------           
-|           |               WHO    |   WHAT    |  the mean of the 60 measures   1:30    |  6 act    |  for every combination of  ordered  | ordered   |  subject and activity           |           |            -------------------------------------------------------------
+  WHO    |   WHAT    |  the mean of the 60 measures  
+ 1:30    |  6 act    |  for every combination of 
+ordered  | ordered   |  subject and activity     
+-------------------------------------------------------------
