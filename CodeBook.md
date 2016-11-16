@@ -5,6 +5,8 @@
 #### tidySet
 
 The data set structure is as follows 
+
+**please look at the "raw" version for visualisation, button top-right**
 ---------------------------------------------------------------------------  
 Train/Test | subject  | activity      |  measure     | value 
 ---------------------------------------------------------------------------     
@@ -111,6 +113,9 @@ value       numerical data     
 #### MeanTidySet
 
 This set contains the means of the 60 values of the previous data set as a combination of subject and activity. This is a 180 rows x 62 columns data set. The data structure is as follows: 
+
+**please look at the "raw" version for visualisation, button top-right**
+
 
 -------------------------------------------------------------  
 subject  | activity  |  measures (60 measures in columns)  
