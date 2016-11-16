@@ -37,7 +37,6 @@ Train/Test | subject  | activity      |  measure     | value 
 3. Activity    
   + categorical data
   + identifies 1 out of 6 possible activities
-  
       1. "Walking",
       2. "WalkingUpstairs",
       3. "WalkingDownstairs",
