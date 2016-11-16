@@ -8,7 +8,27 @@ The original data come and a full description is available at URL: http://archiv
 The source data may be found at URL:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-For each record in the original dataset is provided: 
+For each record in the original dataset is provided: ## New data sets
+
+##### Tidy Data Set
+In several steps, described in the R script "run_analysis.R" the dataset was constructed fromseveral subdata sets. The structure of the first resulting dataset is as follows: 
+
+**please look at the "raw" version for visualisation, button top-right**
+
+
+   | subject  | activity  |  561 columns/vars from results (features.txt) 
+---|----------|-----------|----------------------------------------------
+T  |          |           |    
+R  |          |           |    
+A  |   WHO    |   WHAT    |  7352 rows (train/X_train.txt)    
+I  |          |           |    
+N  |          |           | 
+---|----------|-----------|----------------------------------------------
+T  |          |           |    
+E  |          |           |    
+S  |   WHO    |   WHAT    |  2947 rows (test/X_test.txt)    
+T  |          |           |  
+
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
 - Triaxial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
@@ -24,27 +44,7 @@ The original data set was split in a number of subsets:
 ##### Citation for the data
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
 
-#### New data sets
-
-##### Tidy Data Set
-In several steps, described in the R script "run_analysis.R" the dataset was constructed fromseveral subdata sets. The structure of the first resulting dataset is as follows: 
-
-**please look at the "raw" version for visualisation, button top-right**
-
-
-   | subject  | activity  |  561 columns/vars from results (features.txt) 
--------------------------------------------------------------------------
-T  |          |           |    
-R  |          |           |    
-A  |   WHO    |   WHAT    |  7352 rows (train/X_train.txt)    
-I  |          |           |    
-N  |          |           | 
--------------------------------------------------------------------------
-T  |          |           |    
-E  |          |           |    
-S  |   WHO    |   WHAT    |  2947 rows (test/X_test.txt)    
-T  |          |           |  
--------------------------------------------------------------------------
+##
 
 In a first step, the train and test sets were combined and enriched with subjet, activity,and measure (column) information.The subject information is in the "subject_train.txt" and "subject_tests.txt" files. The activity information is in the "y_train.txt" and "y_tests.txt" files.The column names were read from "features.txt", and transformed as needed.
 
