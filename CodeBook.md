@@ -11,12 +11,9 @@ The data set structure is as follows
 
 Train/Test | subject  | activity      |  measure     | value
 -----------|----------|---------------|--------------|---------------------
-           |          |               |              |
  Train     |   WHO    |   WHAT        |  WHAT        | the value
            |  1:30    |  6 activities |  60 measures | 441120 observations
-           |          |               |              |
 -----------|----------|---------------|--------------|---------------------
-           |          |               |              |
  Test      |   WHO    |   WHAT        |  WHAT        | the value
            |  1:30    |  6 activities |  60 measures | 176820 observations
 
