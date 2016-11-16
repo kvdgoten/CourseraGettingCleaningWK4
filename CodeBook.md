@@ -38,12 +38,13 @@ Train/Test | subject  | activity      |  measure     | value
 #### Activity
   + categorical data
   + identifies 1 out of 6 possible activities
-      1. "Walking",
-      2. "WalkingUpstairs",
-      3. "WalkingDownstairs",
-      4. "Sitting",
-      5. "Standing",
-      6. "Laying".
+    + "Walking",
+    + "WalkingUpstairs",
+    + "WalkingDownstairs",
+    + "Sitting",
+    + "Standing",
+    + "Laying".
+    
             
 #### measure
   + categorical data
