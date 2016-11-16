@@ -28,20 +28,22 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ort
 ##### Tidy Data Set
 In several steps, described in the R script "run_analysis.R" the dataset was constructed fromseveral subdata sets. 
 
-The structure of the first resulting dataset is as follows: 
+The structure of the first resulting dataset is as follows: *please look at the "raw" version for visualisation*
 
 
-TT | subject  | activity  |  561 columns/vars from results (features.txt) 
+   | subject  | activity  |  561 columns/vars from results (features.txt) 
+-------------------------------------------------------------------------
 T  |          |           |    
 R  |          |           |    
 A  |   WHO    |   WHAT    |  7352 rows (train/X_train.txt)    
 I  |          |           |    
 N  |          |           | 
+-------------------------------------------------------------------------
 T  |          |           |    
 E  |          |           |    
 S  |   WHO    |   WHAT    |  2947 rows (test/X_test.txt)    
 T  |          |           |  
-
+-------------------------------------------------------------------------
 
 In a first step, the train and test sets were combined and enriched with subjet, activity,and measure (column) information.The subject information is in the "subject_train.txt" and "subject_tests.txt" files. The activity information is in the "y_train.txt" and "y_tests.txt" files.The column names were read from "features.txt", and transformed as needed.
 
@@ -49,7 +51,8 @@ In a second step, only the measurements with "mean()" or "std()" at the end of t
 
 In a third step, the activity labels (e.g. "walking", "standing", ...) were used to replace thenumbers identifying the activities.  
 
-In a fourth step, the identifiers for the different measures were transformed: abbreviations were replaces with the full words to increase readibility. At the same time, we opted for a tidy data setin "long format". We choose to have one observation per row.  
+In a fourth step, the identifiers for the different measures were transformed: abbreviations were replaces with the full words to increase readibility. At the same time, we opted for a tidy data setin "long format". We choose to have one observation per row. 
+*please look at the "raw" version for visualisation*
 
 ---------------------------------------------------------------------------  
 Train/Test |  subject   | activity      |  measure     | value 
@@ -65,6 +68,7 @@ Test       |    1:30    |  6 activities |  60 measures | 617940 obser
 In a fifth step, a second tidy data set was created with the average of each variable foreach activity and subject.
 
 For readibilities sake we chose the following structure: 180 rows x 62 columns. 
+*please look at the "raw" version for visualisation*
 
 -------------------------------------------------------------  
 subject  | activity  |  measures (60 measures) 
