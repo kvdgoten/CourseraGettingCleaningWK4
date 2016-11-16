@@ -6,7 +6,7 @@ Coursera Assignment for Getting and Cleaning Data WK4 : Samsung Movement Data
 The original data come and a full description is available at URL: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
 
 The source data may be found at URL:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
 For each record in the original dataset is provided:
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
