@@ -5,7 +5,8 @@ Coursera Assignment for Getting and Cleaning Data WK4 : Samsung Movement Data
 #### Original data
 The original data come and a full description is available at URL: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
 
-The source data may be found at URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+The source data may be found at URL: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 For each record in the original dataset is provided: 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
@@ -26,9 +27,9 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ort
 #### New data sets
 
 ##### Tidy Data Set
-In several steps, described in the R script "run_analysis.R" the dataset was constructed fromseveral subdata sets. 
+In several steps, described in the R script "run_analysis.R" the dataset was constructed fromseveral subdata sets. The structure of the first resulting dataset is as follows: 
 
-The structure of the first resulting dataset is as follows: *please look at the "raw" version for visualisation*
+**please look at the "raw" version for visualisation**
 
 
    | subject  | activity  |  561 columns/vars from results (features.txt) 
@@ -52,7 +53,8 @@ In a second step, only the measurements with "mean()" or "std()" at the end of t
 In a third step, the activity labels (e.g. "walking", "standing", ...) were used to replace thenumbers identifying the activities.  
 
 In a fourth step, the identifiers for the different measures were transformed: abbreviations were replaces with the full words to increase readibility. At the same time, we opted for a tidy data setin "long format". We choose to have one observation per row. 
-*please look at the "raw" version for visualisation*
+
+**please look at the "raw" version for visualisation**
 
 ---------------------------------------------------------------------------  
 Train/Test |  subject   | activity      |  measure     | value 
