@@ -110,7 +110,6 @@ Train/Test | subject  | activity      |  measure     | value
     + "TimeMagnitudeGravityAccelerationMean",
     + "TimeMagnitudeGravityAccelerationStandardDeviation"
 
-
 #### value
   + numerical data
   + the value for the measure defined under "measure"
