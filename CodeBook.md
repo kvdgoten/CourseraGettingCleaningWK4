@@ -4,37 +4,38 @@ Coursera Getting and Cleaning assignment WK4: Samsung movement data
 
 ### tidySet
 
-The data set structure is as follows 
+The data set structure is as follows
 
 **please look at the "raw" version for visualisation, button top-right**
------------|----------|---------------|--------------|---------------------  
-Train/Test | subject  | activity      |  measure     | value 
------------|----------|---------------|--------------|---------------------     
+
+-----------|----------|---------------|--------------|---------------------
+Train/Test | subject  | activity      |  measure     | value
+-----------|----------|---------------|--------------|---------------------
            |          |               |              |
- Train     |   WHO    |   WHAT        |  WHAT        | the value        
-           |  1:30    |  6 activities |  60 measures | 441120 obsrvations    
-           |          |               |              |  
+ Train     |   WHO    |   WHAT        |  WHAT        | the value
+           |  1:30    |  6 activities |  60 measures | 441120 observations
+           |          |               |              |
 -----------|----------|---------------|--------------|---------------------
-           |          |               |              | 
- Test      |   WHO    |   WHAT        |  WHAT        | the value    
-           |  1:30    |  6 activities |  60 measures | 176820 observations        
-           |          |               |              |  
+           |          |               |              |
+ Test      |   WHO    |   WHAT        |  WHAT        | the value
+           |  1:30    |  6 activities |  60 measures | 176820 observations
+           |          |               |              |
 -----------|----------|---------------|--------------|---------------------
-           
-### Columns 
+
+### Columns
 
 #### trainTest:  
   + categorical data
   + identifies whether the observation is part of the test or training set
-    1. "train": part of the training set    
-    2. "test":  part of the test set     
-            
-#### Subject     
+    1. "train": part of the training set
+    2. "test":  part of the test set
+
+#### Subject
   + categorical data
-  + identifies the subject in an anonymous way    
-  + 1, 2, ... 30     
-            
-#### Activity    
+  + identifies the subject in an anonymous way
+  + 1, 2, ... 30
+
+#### Activity
   + categorical data
   + identifies 1 out of 6 possible activities
       1. "Walking",
@@ -44,18 +45,18 @@ Train/Test | subject  | activity      |  measure     | value 
       5. "Standing",
       6. "Laying".
             
-#### measure     
-  + categorical data     
-  + identifies 1 out of 60 possible measures  
-    + "FrequencyBodyAccelerationMeanX",     
-    + "FrequencyBodyAccelerationMeanY",      
-    + "FrequencyBodyAccelerationMeanZ",     
-    + "FrequencyBodyAccelerationStandardDeviationX",      
-    + "FrequencyBodyAccelerationStandardDeviationY", 
+#### measure
+  + categorical data
+  + identifies 1 out of 60 possible measures
+    + "FrequencyBodyAccelerationMeanX",
+    + "FrequencyBodyAccelerationMeanY",
+    + "FrequencyBodyAccelerationMeanZ",
+    + "FrequencyBodyAccelerationStandardDeviationX",
+    + "FrequencyBodyAccelerationStandardDeviationY",
     + "FrequencyBodyAccelerationStandardDeviationZ",
-    + "FrequencyBodyLinearAccelerationMeanX",    
-    + "FrequencyBodyLinearAccelerationMeanY",      
-    + "FrequencyBodyLinearAccelerationMeanZ",      
+    + "FrequencyBodyLinearAccelerationMeanX",
+    + "FrequencyBodyLinearAccelerationMeanY",
+    + "FrequencyBodyLinearAccelerationMeanZ",
     + "FrequencyBodyLinearAccelerationStandardDeviationX",      
     + "FrequencyBodyLinearAccelerationStandardDeviationY",      
     + "FrequencyBodyLinearAccelerationStandardDeviationZ",      
