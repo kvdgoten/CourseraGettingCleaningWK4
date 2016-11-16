@@ -30,19 +30,19 @@ Train/Test | subject  | activity      |  measure     | value 
   + "test":  part of the test set     
             
 2. Subject     
- + categorical data    
- + identifies the subject in an anonymous way    
- + 1, 2, ... 30     
+  + categorical data
+  + identifies the subject in an anonymous way    
+  + 1, 2, ... 30     
             
 3. Activity    
-  + categorical data    
+  + categorical data
   + identifies 1 out of 6 possible activities 
-    - "Walking",     
-    - "WalkingUpstairs",     
-    - "WalkingDownstairs",     
-    - "Sitting",     
-    - "Standing",     
-    - "Laying".      
+      - "Walking",     
+      - "WalkingUpstairs",     
+      - "WalkingDownstairs",     
+      - "Sitting",     
+      - "Standing",     
+      - "Laying".      
             
 4. measure     
   + categorical data     
