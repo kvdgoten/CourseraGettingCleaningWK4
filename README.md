@@ -1,14 +1,32 @@
-# CourseraGettingCleaningWK4
+## CourseraGettingCleaningWK4
 Coursera Assignment for Getting and Cleaning Data WK4 : Samsung Movement Data
 
 
-#### Original data
+### Original data
 The original data come and a full description is available at URL: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
 
 The source data may be found at URL:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-For each record in the original dataset is provided: ## New data sets
+For each record in the original dataset is provided:
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment. 
+
+The original data set was split in a number of subsets: 
+- train, test
+- names of the activities
+- names of the measures (columns)
+
+##### Citation for the data
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for 
+Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, 
+Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
+
+
+### New data sets
 
 ##### Tidy Data Set
 In several steps, described in the R script "run_analysis.R" the dataset was constructed fromseveral subdata sets. The structure of the first resulting dataset is as follows: 
@@ -23,20 +41,6 @@ TRAIN  |   WHO    |   WHAT    |  7352 rows (train/X_train.txt)   
 TEST   |   WHO    |   WHAT    |  2947 rows (test/X_test.txt)    
 
 
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
-- Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-- Its activity label. 
-- An identifier of the subject who carried out the experiment. 
-
-The original data set was split in a number of subsets: 
-- train, test
-- names of the activities
-- names of the measures (columns)
-
-
-##### Citation for the data
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
 
 ##
 
