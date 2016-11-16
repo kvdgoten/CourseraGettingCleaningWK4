@@ -1,8 +1,8 @@
 ## CODEBOOK
 
-### Coursera Getting and Cleaning assignment WK4: Samsung movement data
+Coursera Getting and Cleaning assignment WK4: Samsung movement data
 
-#### tidySet
+### tidySet
 
 The data set structure is as follows 
 
@@ -21,20 +21,20 @@ Train/Test | subject  | activity      |  measure     | value 
            |          |               |              |  
 -----------|----------|---------------|--------------|---------------------
            
-##### Columns 
+### Columns 
 
-1. trainTest:  
+#### trainTest:  
   + categorical data
   + identifies whether the observation is part of the test or training set    
     1. "train": part of the training set    
     2. "test":  part of the test set     
             
-2. Subject     
+#### Subject     
   + categorical data
   + identifies the subject in an anonymous way    
   + 1, 2, ... 30     
             
-3. Activity    
+#### Activity    
   + categorical data
   + identifies 1 out of 6 possible activities
       1. "Walking",
@@ -44,19 +44,17 @@ Train/Test | subject  | activity      |  measure     | value 
       5. "Standing",
       6. "Laying".
             
-4. measure     
+#### measure     
   + categorical data     
-  + identifies 1 out of 60 possible measures
-  
-  
-  + "FrequencyBodyAccelerationMeanX",     
-  + "FrequencyBodyAccelerationMeanY",      
-  + "FrequencyBodyAccelerationMeanZ",     
-  + "FrequencyBodyAccelerationStandardDeviationX",      
-  + "FrequencyBodyAccelerationStandardDeviationY", 
-  + "FrequencyBodyAccelerationStandardDeviationZ",
-  + "FrequencyBodyLinearAccelerationMeanX",    
-  + "FrequencyBodyLinearAccelerationMeanY",      
+  + identifies 1 out of 60 possible measures  
+    + "FrequencyBodyAccelerationMeanX",     
+    + "FrequencyBodyAccelerationMeanY",      
+    + "FrequencyBodyAccelerationMeanZ",     
+    + "FrequencyBodyAccelerationStandardDeviationX",      
+    + "FrequencyBodyAccelerationStandardDeviationY", 
+    + "FrequencyBodyAccelerationStandardDeviationZ",
+    + "FrequencyBodyLinearAccelerationMeanX",    
+    + "FrequencyBodyLinearAccelerationMeanY",      
   + "FrequencyBodyLinearAccelerationMeanZ",      
   + "FrequencyBodyLinearAccelerationStandardDeviationX",      
   + "FrequencyBodyLinearAccelerationStandardDeviationY",      
@@ -117,7 +115,7 @@ Train/Test | subject  | activity      |  measure     | value 
 
 
 
-#### MeanTidySet
+## MeanTidySet
 
 This set contains the means of the 60 values of the previous data set as a combination of subject and activity. This is a 180 rows x 62 columns data set. The data structure is as follows: 
 
@@ -127,7 +125,7 @@ This set contains the means of the 60 values of the previous data set as a combi
 subject  | activity  |  measures (60 measures in columns)  
 -------------------------------------------------------------
          |           | 
-  WHO    |   WHAT    |  the value of the mean for the 60   
+   WHO    |   WHAT    |  the value of the mean for the 60   
  1:30    |  6 act    |  measures for every combination of 
 ordered  | ordered   |  subject and activity   
          |           |            
@@ -135,30 +133,31 @@ ordered  | ordered   |  subject and activity   
 
 The definition of the data is completely identical to the on of the previous data set, but is repeated below for completeness sake.
 
-##### Columns 
+### Columns 
 
-1. Subject   
+#### Subject   
   + categorical data    
   + identifies the subject in an anonymous way    
-  + 1, 2, ... 30     
+    + 1, 2, ... 30     
           
-2. Activity  
+#### Activity  
   + categorical data    
   + identifies 1 out of 6 possible activities
-  + "Walking",     
-  + "WalkingUpstairs",     
-  + "WalkingDownstairs",     
-  + "Sitting",     
-  + "Standing",     
-  + "Laying".      
+    + "Walking",     
+    + "WalkingUpstairs",     
+    + "WalkingDownstairs",     
+    + "Sitting",     
+    + "Standing",     
+    + "Laying".      
             
-3. measure    
+#### measure    
   + categorical data     
   + identifies 1 out of 60 possible measures
+  + the measures are completely identical as the ones defined under the previous data set "Tidyset".
            
-4. value      
+#### value      
   + numerical data     
   + the value for the measure defined under "measure"    
   + the values are all normalized and bounded within[-1, +1]
-  + the measures are completely identical as the ones defined under the previous data set "Tidyset".
+
 
