@@ -34,17 +34,19 @@ Train/Test | subject  | activity      |  measure     | value 
  + identifies the subject in an anonymous way    
  + 1, 2, ... 30     
             
-Activity    categorical data    
-            identifies 1 out of 6 possible activities 
-              "Walking",     
-              "WalkingUpstairs",     
-              "WalkingDownstairs",     
-              "Sitting",     
-              "Standing",     
-              "Laying".      
+3. Activity    
+  + categorical data    
+  + identifies 1 out of 6 possible activities 
+    - "Walking",     
+    - "WalkingUpstairs",     
+    - "WalkingDownstairs",     
+    - "Sitting",     
+    - "Standing",     
+    - "Laying".      
             
-measure     categorical data     
-            identifies 1 out of 60 possible measures      
+4. measure     
+  + categorical data     
+  + identifies 1 out of 60 possible measures      
               "FrequencyBodyAccelerationMeanX",     
               "FrequencyBodyAccelerationMeanY",      
               "FrequencyBodyAccelerationMeanZ",     
