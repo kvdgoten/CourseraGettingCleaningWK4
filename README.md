@@ -50,11 +50,10 @@ In a fourth step, the identifiers for the different measures were transformed: a
 
 **please look at the "raw" version for visualisation, button top-right**
 
-
-Train/Test |  subject   | activity      |  measure     | value 
------------|------------|---------------|--------------|--------------------            
-Train or   |    WHO     |   WHAT        |  WHAT        | the value  
-Test       |    1:30    |  6 activities |  60 measures | 617940 observations            
+Train/Test |  subject   | activity      |  measure     | value
+-----------|------------|---------------|--------------|--------------------
+Train or   |    WHO     |   WHAT        |  WHAT        | the value
+Test       |    1:30    |  6 activities |  60 measures | 617940 observations
 
 
 ##### Mean Tidy Data Set 
@@ -65,10 +64,9 @@ For readibilities sake we chose the following structure: 180 rows x 62 columns.�
 
 **please look at the "raw" version for visualisation, button top-right**
 
--------------------------------------------------------------  
-subject  | activity  |  measures (60 measures) 
--------------------------------------------------------------           
-  WHO    |   WHAT    |  the mean of the 60 measures  
- 1:30    |  6 act    |  for every combination of 
-ordered  | ordered   |  subject and activity     
--------------------------------------------------------------
+subject  | activity  |  measures (60 measures)
+---------|-----------|---------------------------------------
+  WHO    |   WHAT    |  the mean of the 60 measures
+ 1:30    |  6 act    |  for every combination of
+ordered  | ordered   |  subject and activity
+
