@@ -42,8 +42,7 @@ N  |          |           | 
 T  |          |           |    
 E  |          |           |    
 S  |   WHO    |   WHAT    |  2947 rows (test/X_test.txt)    
-T  |          |           |      
-   |          |           | 
+T  |          |           |  
 ----------------------------------------------------------------------------
 
 In a first step, the train and test sets were combined and enriched with subjet, activity,and measure (column) information.The subject information is in the "subject_train.txt" and "subject_tests.txt" files. The activity information is in the "y_train.txt" and "y_tests.txt" files.The column names were read from "features.txt", and transformed as needed.
