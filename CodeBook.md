@@ -48,7 +48,7 @@ Train/Test | subject  | activity      |  measure     | value
             
 #### measure
   + categorical data
-  + identifies 1 out of 60 possible measures
+  + identifies 1 out of 60 possible measures
     + "FrequencyBodyAccelerationMeanX",
     + "FrequencyBodyAccelerationMeanY",
     + "FrequencyBodyAccelerationMeanZ",
