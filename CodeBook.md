@@ -8,7 +8,7 @@ The data set structure is as follows
 
 **please look at the "raw" version for visualisation, button top-right**
 
------------|----------|---------------|--------------|---------------------
+
 Train/Test | subject  | activity      |  measure     | value
 -----------|----------|---------------|--------------|---------------------
            |          |               |              |
@@ -19,8 +19,7 @@ Train/Test | subject  | activity      |  measure     | value
            |          |               |              |
  Test      |   WHO    |   WHAT        |  WHAT        | the value
            |  1:30    |  6 activities |  60 measures | 176820 observations
-           |          |               |              |
------------|----------|---------------|--------------|---------------------
+
 
 ### Columns
 
@@ -123,14 +122,12 @@ This is a 180 rows x 62 columns data set. The data structure is as follows:
 
 **please look at the "raw" version for visualisation, button top-right**
 
-
----------|-----------|---------------------------------------
 subject  | activity  |  measures (60 measures in columns)
 ---------|-----------|---------------------------------------
   WHO    |   WHAT    |  the value of the mean for the 60
  1:30    |  6 act    |  measures for every combination of
 ordered  | ordered   |  subject and activity
----------|-----------|---------------------------------------
+
 
 The definition of the data is completely identical to the on of the previous data set, but is repeated below for completeness sake.
 
