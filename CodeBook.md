@@ -111,9 +111,9 @@ Train/Test | subject  | activity      |  measure     | value
     + "TimeMagnitudeGravityAccelerationStandardDeviation"
 
 #### value
-  + numerical data
-  + the value for the measure defined under "measure"
-  + the values are all normalized and bounded within[-1, +1]
+  + numerical data
+  + the value for the measure defined under "measure"
+  + the values are all normalized and bounded within[-1, +1]
 
 
 ## MeanTidySet
@@ -160,5 +160,4 @@ The definition of the data is completely identical to the on of the previous dat
   + numerical data
   + the value for the measure defined under "measure"
   + the values are all normalized and bounded within[-1, +1]
-
-
+  
