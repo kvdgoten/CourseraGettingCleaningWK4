@@ -10,24 +10,24 @@ The data set structure is as follows 
 ---------------------------------------------------------------------------  
 Train/Test | subject  | activity      |  measure     | value 
 ---------------------------------------------------------------------------     
-           |          |               |              |       
            |          |               |              |
  Train     |   WHO    |   WHAT        |  WHAT        | the value        
            |  1:30    |  6 activities |  60 measures | 441120 obsrvations    
            |          |               |              |  
 ---------------------------------------------------------------------------
-           |          |               |              |       
            |          |               |              | 
  Test      |   WHO    |   WHAT        |  WHAT        | the value    
-           |  1:30    |  6 activities |  60 measures | 176820 observations             |          |               |              |  ---------------------------------------------------------------------------
+           |  1:30    |  6 activities |  60 measures | 176820 observations        
+           |          |               |              |  
+---------------------------------------------------------------------------
            
 ##### Columns 
 
 1. trainTest:  
   + categorical data
   + identifies whether the observation is part of the test or training set    
-  + "train": part of the training set    
-  + "test":  part of the test set     
+    1. "train": part of the training set    
+    2. "test":  part of the test set     
             
 2. Subject     
   + categorical data
@@ -37,12 +37,12 @@ Train/Test | subject  | activity      |  measure     | value 
 3. Activity    
   + categorical data
   + identifies 1 out of 6 possible activities 
-  + "Walking",     
-  + "WalkingUpstairs",     
-  + "WalkingDownstairs",     
-  + "Sitting",     
-  + "Standing",     
-  + "Laying".      
+    1. "Walking",     
+    2. "WalkingUpstairs",     
+    3. "WalkingDownstairs",     
+    4. "Sitting",     
+    5. "Standing",     
+    6. "Laying".      
             
 4. measure     
   + categorical data     
