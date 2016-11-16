@@ -16,18 +16,12 @@ In several steps, described in the R script "run_analysis.R" the dataset was con
 **please look at the "raw" version for visualisation, button top-right**
 
 
-   | subject  | activity  |  561 columns/vars from results (features.txt) 
----|----------|-----------|----------------------------------------------
-T  |          |           |    
-R  |          |           |    
-A  |   WHO    |   WHAT    |  7352 rows (train/X_train.txt)    
-I  |          |           |    
-N  |          |           | 
----|----------|-----------|----------------------------------------------
-T  |          |           |    
-E  |          |           |    
-S  |   WHO    |   WHAT    |  2947 rows (test/X_test.txt)    
-T  |          |           |  
+       | subject  | activity  |  561 columns/vars from results (features.txt) 
+-------|----------|-----------|----------------------------------------------
+TRAIN  |   WHO    |   WHAT    |  7352 rows (train/X_train.txt)    
+-------|----------|-----------|----------------------------------------------
+TEST   |   WHO    |   WHAT    |  2947 rows (test/X_test.txt)    
+
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
 - Triaxial Angular velocity from the gyroscope. 
